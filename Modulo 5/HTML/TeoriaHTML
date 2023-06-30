@@ -1,0 +1,30 @@
+HTML ---> Hyper Text Markup Language (Lenguaje de Marcas de Hipertexrto)
+
+-HTML5 : estructura y presenta el contenido
+
+-CSS (Cascading Style Sheets) : Estilo y diseño
+
+-DOM (Document Object Model) : Manipula y accede a elementos del documento
+
+-JavaScript : Lenguaje de programacion
+
+------------------------------------------
+Nombres de archivos del servidor
+
+No se pueden usar puntos
+No se pueden usar tildes
+No se pueden usar caracteres especiales (@, ñ, ...)
+No se pueden usar espacios
+Se pueden usar _ o -
+Se suelen usar nombres cortos
+
+------------------------------------------
+<style>
+    selector{
+        propiedad: valor;
+    }
+</style>
+
+1em = 16px
+h1 tienen 2em = 32px
+3em = 48px

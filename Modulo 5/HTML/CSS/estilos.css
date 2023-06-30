@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* url de google fonts */
+
+body{
+    color: rgb(0, 0, 0); /* color de texto */
+    background-color: rgb(255, 255, 212); /* color de fondo */
+    font-size: 9px; /* tamaño de fuente */
+    font-family:'Times New Roman', Times, serif; /* tipo de fuente */
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    font-family: 'Press Start 2P', cursive; 
+}
+
+/* Selectores descendentes */
+h1 strong{
+    color: rgb(0, 0, 255);
+}
+
+/* Selectores grupales */
+h2, h3, h4{
+    color: rgb(0, 187, 255);
+}
+
+/* Cambio de tamaño de fuente */
+p{
+    color: rgb(23, 154, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
