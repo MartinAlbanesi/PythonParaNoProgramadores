@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+.two-columns-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* columns */
+.two-columns-grid > * {
+    padding:1rem;
+}
+
+#ul_top_hypers li{
+    padding: 0 25px;
+    list-style-type: none;
+    font-size:32px;
+    display: inline;
+}
+
+body{
+    background-color: rgb(239,239, 239);
+}
+
+h1{
+    font-family: Coiny, regular;
+    font-weight: 400;
+}
+
+h2{
+    font-family: Roboto, Bold;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+h1,h2{
+    display:inline;
+}
+
+p{
+    font-family: Roboto, regular;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+}
