@@ -2,19 +2,35 @@
 
 .two-columns-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 70% 30%;
 }
 
 /* columns */
 .two-columns-grid > * {
     padding:1rem;
+    margin-left: 0%;
 }
 
 #ul_top_hypers li{
-    padding: 0 25px;
+    padding: 20px;
     list-style-type: none;
     font-size:32px;
     display: inline;
+}
+
+#title_with_subtitle > h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subtitle > *{
+    font-family: Roboto, Regular;
+    font-weight: 400;
+    font-size: 26.6px;
+    background-color: #FCEE21;
 }
 
 body{
